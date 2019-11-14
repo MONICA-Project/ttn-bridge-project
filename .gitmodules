@@ -1,0 +1,21 @@
+[submodule "TTN-Bridge"]
+	path = TTN-Bridge
+	url = https://github.com/MONICA-Project/ttn-bridge.git
+[submodule "Utils/ConnectorDataMqtt"]
+	path = Utils/ConnectorDataMqtt
+	url = http://git.blubbfish.net/vs_utils/ConnectorDataMqtt.git
+[submodule "Utils/Utils-IoT"]
+	path = Utils/Utils-IoT
+	url = http://git.blubbfish.net/vs_utils/Utils-IoT.git
+[submodule "Utils/Bot-Utils"]
+	path = Utils/Bot-Utils
+	url = http://git.blubbfish.net/vs_utils/Bot-Utils.git
+[submodule "Librarys/litjson"]
+	path = Librarys/litjson
+	url = http://git.blubbfish.net/vs_librarys/litjson.git
+[submodule "Librarys/mqtt"]
+	path = Librarys/mqtt
+	url = http://git.blubbfish.net/vs_librarys/mqtt.git
+[submodule "Librarys/Mono.Posix"]
+	path = Librarys/Mono.Posix
+	url = http://git.blubbfish.net/vs_librarys/Mono.Posix.git
