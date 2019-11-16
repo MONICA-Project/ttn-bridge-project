@@ -87,6 +87,21 @@ else
 	cd ..
 fi
 
+echo "Pull Utils/Utils"
+if [ -a Utils/Utils/.git ] 
+then
+	cd Utils/Utils
+	git pull
+	cd ..
+	cd ..
+else
+	git submodule update --init --  Utils/Utils
+	cd Utils/Utils
+	git checkout master
+	cd ..
+	cd ..
+fi
+
 echo "Pull Utils/Utils-IoT"
 if [ -a Utils/Utils-IoT/.git ] 
 then

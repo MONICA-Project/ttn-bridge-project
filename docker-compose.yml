@@ -1,0 +1,12 @@
+version: '2.3'
+
+services:
+  ttnbridge:
+    build:
+      context: .
+    image: registry.fit.fraunhofer.de/monica/lora-map/map-project:latest
+    command: ["mono","./TTN-Bridge.exe"]
+    ports:
+      - 8080:8080
+    volumes:
+      - "./config:/etc/ttnbridge"
