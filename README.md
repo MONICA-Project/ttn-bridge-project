@@ -25,6 +25,7 @@ To run the latest version of TTN-Bridge, [Checkout this repo](#Checkout) and the
 ```bash
 docker-compose build
 mkdir ./config
+cp ./TTN-Bridge/TTN-Bridge/config-example/settings.conf.example ./config/settings.conf
 docker-compose up
 ```
 Edit the `settings.conf` maybe.
