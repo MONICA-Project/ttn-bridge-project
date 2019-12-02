@@ -20,5 +20,5 @@ jobs:
       working-directory: TTN-Bridge
     - name: Create deb files
       run: ./make-deb-core.sh amd64 && ./make-deb-core.sh armhf
-      working-directory: TTN-Bridge/TTN-Bridge/dpkg
+      working-directory: ./TTN-Bridge/TTN-Bridge/dpkg
       shell: bash
