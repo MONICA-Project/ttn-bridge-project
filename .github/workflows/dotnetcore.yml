@@ -19,6 +19,6 @@ jobs:
       run: dotnet build TTN-Bridge_Core.sln --configuration Release
       working-directory: TTN-Bridge
     - name: Create deb files
-      run: chmod oug+x make-deb-core.sh && ./make-deb-core.sh amd64 && ./make-deb-core.sh armhf
+      run: mkdir ../../../Builds && chmod oug+x make-deb-core.sh && ./make-deb-core.sh amd64 && ./make-deb-core.sh armhf
       working-directory: ./TTN-Bridge/TTN-Bridge/dpkg
       shell: bash
