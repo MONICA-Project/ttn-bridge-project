@@ -4,8 +4,8 @@ services:
   ttnbridge:
     build:
       context: .
-    image: registry.fit.fraunhofer.de/monica/lora-map/map-project:latest
-    command: ["mono","./TTN-Bridge.exe"]
+    image: monicaproject/ttn-bridge:latest
+    command: ["dotnet","./TTN-Bridge.dll"]
     ports:
       - 8080:8080
     volumes:
