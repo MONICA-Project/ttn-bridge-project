@@ -47,13 +47,13 @@ On Windows you can create with `TTN-Bridge/TTN-Bridge/dpkg/create-Builds.bat` de
 
 [Checkout this repo](#Checkout) and run: `msbuild /p:Configuration="Release" /p:Platform="Any CPU" /p:OutputPath="./bin/Release/" "TTN-Bridge/TTN-Bridge.sln"`
 
-You must have `mono-complete` and `libmono-posix4.0-cil` installed
+You must have `dotnet-sdk-3.0` installed
 
 If you want to have deb files run `cd TTN-Bridge/TTN-Bridge/dpkg` and `bash make-deb.sh armhf` that you can install with `sudo dpkg -i armhf-ttnbridge_x.x-x.deb`
 
 ### Prerequisite
 
-On Windows you need C# Runtime 4.7.2, on linux you need Mono, installation instructions are available [here](https://www.mono-project.com/download/stable/#download-lin-debian). You need only setup apt.
+You need C# .NET Core 3, installation instructions are available [here](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-debian10). You need only setup apt.
 
 If you install the deb packets, it will check and install all dependencies.
 

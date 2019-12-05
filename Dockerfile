@@ -14,7 +14,7 @@ COPY Utils/Utils /build/Utils/Utils
 COPY Utils/Utils-IoT /build/Utils/Utils-IoT
 
 WORKDIR /build/TTN-Bridge
-RUN dotnet build TTN-Bridge_Core.sln --configuration Release
+RUN dotnet build TTN-Bridge.sln --configuration Release
 
 RUN mkdir /usr/local/bin/ttnbridge -p
 RUN cp TTN-Bridge/bin/Release/netcoreapp3.0/*.dll /usr/local/bin/ttnbridge -r
