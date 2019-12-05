@@ -16,9 +16,6 @@
 [submodule "Librarys/mqtt"]
 	path = Librarys/mqtt
 	url = http://git.blubbfish.net/vs_librarys/mqtt.git
-[submodule "Librarys/Mono.Posix"]
-	path = Librarys/Mono.Posix
-	url = http://git.blubbfish.net/vs_librarys/Mono.Posix.git
 [submodule "Utils/Utils"]
 	path = Utils/Utils
 	url = http://git.blubbfish.net/vs_utils/Utils.git
